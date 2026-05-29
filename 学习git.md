@@ -54,9 +54,61 @@
 
 ### 四、常用命令
 
+1. 状态与查看
+
 `git status`#查看文件状态
 
 `git log`#查看记录
+
+`git diff` #查看具体改动
+
+2. 本地提交
+
+`git add .`  #提交所有文件假如暂存
+
+`git add 文件名`#提交单个文件
+
+`git commit -m "说明"`#提交到本地仓库
+
+3. 远程同步
+
+`git push`# 上传，本地-》网站
+
+`git pull`# 拉取，网站（最新）-》本地
+
+4. 分支
+
+`git branch`#查看分支
+
+`git branch 新分支名`#创建分支
+
+`git checkout 分支名`#切换分支
+
+5. 撤销
+
+`git reset --soft HEAD~1`#撤销最后一次提交
+
+回退到git commit之前，若不修改文件提交不用再git add ，若修改了文件，需要重新git add到缓存区
+
+`git checkout`#撤销工作区的所有改动，返回到上一次之前	
+
+### 五、个人理解
+
+1. git 和github是分开的2个部分，可以只用git进行本地管理。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
